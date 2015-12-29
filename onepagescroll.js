@@ -5,7 +5,6 @@
  * http://mystika.me
 */
 
-
 function onepagescroll(selector, options) {
 	var pages = [];
 	var currentPage = 1;
@@ -20,7 +19,7 @@ function onepagescroll(selector, options) {
 		infinite: true,
 		pagination: true,
 		keyboard: true,
-		direction: 'horizontal',
+		direction: 'vertical',
 	};
 
 	var setting = extend({},def,options);
