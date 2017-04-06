@@ -1,14 +1,14 @@
-#onepagescroll.js
+# onepagescroll.js
 
 just script for one-page scrolling.
 
-##Features
+## Features
 - lightweight
 - customizable
 - no dependency(pure js)
 - support touch events
 
-##Installation
+## Installation
 
 download js and css into your project and link it.
 
@@ -17,7 +17,7 @@ download js and css into your project and link it.
 <link rel="stylesheet" type="text/css" href="./css/onepagescroll.css">
 ```
 
-##Usage
+## Usage
 
 you only need single parent element and some child elements.
 
@@ -37,7 +37,7 @@ onepagescroll('div.pages');
 ```
 
 
-##Options(Attributes)
+## Options(Attributes)
 ```javascript
 onepagescroll('div.parent',{
   pageContainer: 'section',     //child elements selector. use if you don't want to use section for page.
